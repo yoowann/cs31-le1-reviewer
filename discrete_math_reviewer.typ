@@ -288,7 +288,7 @@ Form: $a_n = c_1 a_(n-1) + c_2 a_(n-2) + f(n)$, where $f(n)$ is the *non-homogen
   [$c dot s^n$], [$A dot s^n$],
 )
 
-*Important:* If your guess for $a_n^((p))$ solves the homogeneous equation (i.e., is a root of the characteristic equation), multiply by $n$.
+*Important:* If your guess for $a_n^((p))$ solves the homogeneous equation (i.e., is a root of the characteristic equation) with multiplicity $m$, multiply by $n^m$.
 
 *Step 3:* General solution: $a_n = a_n^((h)) + a_n^((p))$
 
